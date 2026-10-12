@@ -159,6 +159,25 @@ DDPM = dict(
 )
 
 # ---------------------------------------------------------------------------
+# DDPM Heavy — wider, deeper, longer (ablation vs lightweight)
+# ---------------------------------------------------------------------------
+DDPM_HEAVY = dict(
+    image_size        = GEN_IMG_SIZE,          # 128×128
+    timesteps         = 1000,
+    noise_schedule    = "linear",
+    beta_start        = 1e-4,
+    beta_end          = 2e-2,
+    unet_channels     = (64, 128, 256, 512),   # 4 stages
+    attn_resolutions  = (8, 16),               # attention at 16×16 and 8×8
+    res_blocks        = 3,
+    num_classes       = NUM_CLASSES,
+    lr                = 2e-4,
+    max_epochs        = 300,
+    save_every        = 20,
+    ddim_steps        = 50,
+)
+
+# ---------------------------------------------------------------------------
 # Experiment
 # ---------------------------------------------------------------------------
 SYNTH_COUNTS = [250, 500]
