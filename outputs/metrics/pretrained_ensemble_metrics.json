@@ -1,0 +1,40 @@
+{
+  "weighted_f1": 0.851562,
+  "macro_f1": 0.708113,
+  "accuracy": 0.849056,
+  "per_class_precision": {
+    "healthy": 0.760258,
+    "rubbish": 0.929262,
+    "unhealthy": 0.403846
+  },
+  "per_class_recall": {
+    "healthy": 0.871438,
+    "rubbish": 0.858127,
+    "unhealthy": 0.4375
+  },
+  "per_class_f1": {
+    "healthy": 0.81206,
+    "rubbish": 0.892279,
+    "unhealthy": 0.42
+  },
+  "confusion_matrix": [
+    [
+      5077,
+      622,
+      127
+    ],
+    [
+      1423,
+      10089,
+      245
+    ],
+    [
+      178,
+      146,
+      252
+    ]
+  ],
+  "unhealthy_recall": 0.4375,
+  "model_a": "C:\\Users\\danish\\Desktop\\model_1\\data\\best_model_3.pth",
+  "model_b": "C:\\Users\\danish\\Desktop\\model_2\\data\\best_model_v2_6.pth"
+}

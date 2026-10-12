@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints (too large for git — use Git LFS or external storage)
+outputs/checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
