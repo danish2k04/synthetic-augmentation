@@ -1,0 +1,26 @@
+{
+  "condition": "ddpm_heavy_500_ensemble",
+  "weighted_f1": 0.8513,
+  "accuracy": 0.8485,
+  "healthy_f1": 0.8107,
+  "rubbish_f1": 0.8917,
+  "unhealthy_f1": 0.4377,
+  "confusion_matrix": [
+    [
+      5078,
+      614,
+      134
+    ],
+    [
+      1451,
+      10063,
+      243
+    ],
+    [
+      173,
+      136,
+      267
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     healthy       0.76      0.87      0.81      5826\n     rubbish       0.93      0.86      0.89     11757\n   unhealthy       0.41      0.46      0.44       576\n\n    accuracy                           0.85     18159\n   macro avg       0.70      0.73      0.71     18159\nweighted avg       0.86      0.85      0.85     18159\n"
+}

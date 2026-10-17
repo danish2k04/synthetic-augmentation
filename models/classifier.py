@@ -65,8 +65,9 @@ def _run_epoch(model, loader, criterion, optimizer, scaler, device, train: bool)
     total_loss, all_preds, all_labels = 0.0, [], []
 
     ctx = torch.enable_grad() if train else torch.no_grad()
+    phase = "train" if train else "val"
     with ctx:
-        for imgs, labels in loader:
+        for imgs, labels in tqdm(loader, desc=f"  {phase}", leave=False):
             imgs, labels = imgs.to(device), labels.to(device)
             with autocast():
                 logits = model(imgs)

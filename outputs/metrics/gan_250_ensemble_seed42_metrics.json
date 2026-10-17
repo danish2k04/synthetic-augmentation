@@ -1,0 +1,41 @@
+{
+  "weighted_f1": 0.848623,
+  "macro_f1": 0.703984,
+  "accuracy": 0.845972,
+  "per_class_precision": {
+    "healthy": 0.756217,
+    "rubbish": 0.927964,
+    "unhealthy": 0.395238
+  },
+  "per_class_recall": {
+    "healthy": 0.87161,
+    "rubbish": 0.853534,
+    "unhealthy": 0.432292
+  },
+  "per_class_f1": {
+    "healthy": 0.809824,
+    "rubbish": 0.889194,
+    "unhealthy": 0.412935
+  },
+  "confusion_matrix": [
+    [
+      5078,
+      631,
+      117
+    ],
+    [
+      1458,
+      10035,
+      264
+    ],
+    [
+      179,
+      148,
+      249
+    ]
+  ],
+  "unhealthy_recall": 0.432292,
+  "training_time_minutes": 871.75,
+  "condition": "gan_250_ensemble",
+  "seed": 42
+}
