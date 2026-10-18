@@ -93,7 +93,7 @@ MODEL_B = dict(
     phase2_lr           = 3e-4,
     phase2_weight_decay = 1e-4,
     phase2_max_epochs   = 35,
-    phase2_patience     = 7,
+    phase2_patience     = 5,
     warmup_epochs       = 3,    # linear LR warmup at start of phase 2
 )
 

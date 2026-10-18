@@ -1,0 +1,40 @@
+{
+  "condition": "combined_ddpm500_heavy_aug_ensemble",
+  "seed": 42,
+  "weighted_f1": 0.848979,
+  "macro_f1": 0.69913,
+  "accuracy": 0.848064,
+  "per_class_precision": {
+    "healthy": 0.753965,
+    "rubbish": 0.924915,
+    "unhealthy": 0.431772
+  },
+  "per_class_recall": {
+    "healthy": 0.873155,
+    "rubbish": 0.859148,
+    "unhealthy": 0.368056
+  },
+  "per_class_f1": {
+    "healthy": 0.809194,
+    "rubbish": 0.890819,
+    "unhealthy": 0.397376
+  },
+  "confusion_matrix": [
+    [
+      5087,
+      651,
+      88
+    ],
+    [
+      1465,
+      10101,
+      191
+    ],
+    [
+      195,
+      169,
+      212
+    ]
+  ],
+  "training_time_minutes": 302.0
+}
