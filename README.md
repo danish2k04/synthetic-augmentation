@@ -4,7 +4,7 @@ TDK (Scientific Students' Associations Conference) research project exploring wh
 
 ## Problem
 
-The [ISBI 2025 PS3C]([https://ps3c.grand-challenge.org/](https://osf.io/fp2xe/overview)) pap smear cell classification dataset contains ~82,000 images across three classes:
+The [ISBI 2025 PS3C](https://osf.io/fp2xe/overview) pap smear cell classification dataset contains ~82,000 images across three classes:
 
 | Class | Train Samples | Share |
 |-------|--------------|-------|
