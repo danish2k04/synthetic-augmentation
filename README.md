@@ -1,4 +1,4 @@
-# Lightweight Diffusion Models for Synthetic Minority-Class Generation in Medical Image Classification
+# Lightweight Diffusion Models for Synthetic Minority-Class Generation
 
 TDK (Scientific Students' Associations Conference) research project exploring whether lightweight conditional diffusion models can generate useful synthetic minority-class images to improve classification on severely imbalanced medical datasets.
 
