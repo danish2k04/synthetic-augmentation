@@ -1,0 +1,40 @@
+{
+  "weighted_f1": 0.844472,
+  "macro_f1": 0.694729,
+  "accuracy": 0.841897,
+  "per_class_precision": {
+    "healthy": 0.74209,
+    "rubbish": 0.931186,
+    "unhealthy": 0.389456
+  },
+  "per_class_recall": {
+    "healthy": 0.877618,
+    "rubbish": 0.845964,
+    "unhealthy": 0.397569
+  },
+  "per_class_f1": {
+    "healthy": 0.804184,
+    "rubbish": 0.886532,
+    "unhealthy": 0.393471
+  },
+  "confusion_matrix": [
+    [
+      5113,
+      588,
+      125
+    ],
+    [
+      1577,
+      9946,
+      234
+    ],
+    [
+      200,
+      147,
+      229
+    ]
+  ],
+  "unhealthy_recall": 0.397569,
+  "condition": "model_b_individual",
+  "seed": 42
+}

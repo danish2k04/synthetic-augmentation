@@ -1,0 +1,47 @@
+{
+  "weighted_f1": 0.853181,
+  "macro_f1": 0.711681,
+  "accuracy": 0.849056,
+  "per_class_precision": {
+    "healthy": 0.758926,
+    "rubbish": 0.93928,
+    "unhealthy": 0.378706
+  },
+  "per_class_recall": {
+    "healthy": 0.882939,
+    "rubbish": 0.849962,
+    "unhealthy": 0.487847
+  },
+  "per_class_f1": {
+    "healthy": 0.816249,
+    "rubbish": 0.892391,
+    "unhealthy": 0.426404
+  },
+  "confusion_matrix": [
+    [
+      5144,
+      521,
+      161
+    ],
+    [
+      1464,
+      9993,
+      300
+    ],
+    [
+      170,
+      125,
+      281
+    ]
+  ],
+  "unhealthy_recall": 0.487847,
+  "condition": "enlarged_ensemble_5model",
+  "seed": 42,
+  "ensemble_members": [
+    "Model A (std aug)",
+    "Model B orig (heavy aug)",
+    "Model B gan-500",
+    "Model B ddpm-500",
+    "Model B ddpm-heavy-500"
+  ]
+}
