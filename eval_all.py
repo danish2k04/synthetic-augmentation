@@ -37,7 +37,7 @@ BATCH = 32
 DIRS = {
     "DCGAN-500":      config.GEN_IMAGE_DIR / "dcgan"      / "unhealthy_500",
     "DDPM-light-500": config.GEN_IMAGE_DIR / "ddpm"       / "unhealthy_500",
-    "DDPM-heavy-500": config.GEN_IMAGE_DIR / "ddpm_heavy" / "unhealthy_500",
+    "Full-size-DDPM-500": config.GEN_IMAGE_DIR / "ddpm_heavy" / "unhealthy_500",
 }
 REAL_DIR = config.TRAIN_DIR / "unhealthy"
 
@@ -108,7 +108,7 @@ PALETTE = {
     "Real":           "#333333",
     "DCGAN-500":      "#F44336",
     "DDPM-light-500": "#2196F3",
-    "DDPM-heavy-500": "#4CAF50",
+    "Full-size-DDPM-500": "#4CAF50",
 }
 
 def plot_tsne(feat_dict: dict, out: Path):
