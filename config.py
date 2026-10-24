@@ -64,7 +64,7 @@ MODEL_A = dict(
     weight_decay = 1e-4,
     t_max        = 35,    # CosineAnnealingLR
     max_epochs   = 35,
-    patience     = 6,     # early stopping on val weighted F1
+    patience     = 5,     # early stopping on val weighted F1
 )
 
 # Model A train augmentation pipeline

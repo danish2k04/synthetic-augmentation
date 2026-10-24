@@ -1,0 +1,109 @@
+model,metric,point_estimate,ci_lower,ci_upper
+Model A,weighted_f1,0.846105,0.840812,0.851456
+Model A,macro_f1,0.701358,0.687768,0.714544
+Model A,accuracy,0.845586,0.840245,0.850983
+Model A,unhealthy_f1,0.412818,0.374651,0.449954
+Model A,unhealthy_precision,0.451546,0.406852,0.495834
+Model A,unhealthy_recall,0.380208,0.340348,0.41982
+Model B — baseline,weighted_f1,0.840513,0.835268,0.845867
+Model B — baseline,macro_f1,0.692626,0.679378,0.705343
+Model B — baseline,accuracy,0.837932,0.83259,0.843383
+Model B — baseline,unhealthy_f1,0.396537,0.360268,0.432788
+Model B — baseline,unhealthy_precision,0.395509,0.355285,0.435169
+Model B — baseline,unhealthy_recall,0.397569,0.357486,0.437956
+Ensemble — baseline,weighted_f1,0.849309,0.844172,0.854423
+Ensemble — baseline,macro_f1,0.708545,0.695879,0.720976
+Ensemble — baseline,accuracy,0.846688,0.841456,0.851919
+Ensemble — baseline,unhealthy_f1,0.42691,0.391858,0.461538
+Ensemble — baseline,unhealthy_precision,0.409236,0.370649,0.447542
+Ensemble — baseline,unhealthy_recall,0.446181,0.405583,0.486942
+Model B — heavy_aug,weighted_f1,0.82176,0.816192,0.827405
+Model B — heavy_aug,macro_f1,0.590892,0.580488,0.601534
+Model B — heavy_aug,accuracy,0.823118,0.817611,0.828681
+Model B — heavy_aug,unhealthy_f1,0.112257,0.083425,0.141368
+Model B — heavy_aug,unhealthy_precision,0.164983,0.122743,0.209017
+Model B — heavy_aug,unhealthy_recall,0.085069,0.062392,0.108334
+Ensemble — heavy_aug,weighted_f1,0.845727,0.840533,0.850957
+Ensemble — heavy_aug,macro_f1,0.687335,0.674314,0.700052
+Ensemble — heavy_aug,accuracy,0.843714,0.838427,0.849
+Ensemble — heavy_aug,unhealthy_f1,0.365875,0.329768,0.401065
+Ensemble — heavy_aug,unhealthy_precision,0.370766,0.330935,0.410528
+Ensemble — heavy_aug,unhealthy_recall,0.361111,0.321366,0.400709
+Model B — gan_250,weighted_f1,0.84034,0.835021,0.845595
+Model B — gan_250,macro_f1,0.684974,0.672053,0.697581
+Model B — gan_250,accuracy,0.837601,0.832149,0.842944
+Model B — gan_250,unhealthy_f1,0.37133,0.335031,0.406355
+Model B — gan_250,unhealthy_precision,0.369416,0.330019,0.408696
+Model B — gan_250,unhealthy_recall,0.373264,0.334454,0.413225
+Ensemble — gan_250,weighted_f1,0.848611,0.843454,0.853808
+Ensemble — gan_250,macro_f1,0.704092,0.69156,0.7167
+Ensemble — gan_250,accuracy,0.845972,0.840685,0.851313
+Ensemble — gan_250,unhealthy_f1,0.413278,0.378143,0.448193
+Ensemble — gan_250,unhealthy_precision,0.395866,0.357605,0.434564
+Ensemble — gan_250,unhealthy_recall,0.432292,0.392084,0.472759
+Model B — gan_500,weighted_f1,0.836747,0.831555,0.841983
+Model B — gan_500,macro_f1,0.685803,0.675019,0.696647
+Model B — gan_500,accuracy,0.826808,0.821301,0.83237
+Model B — gan_500,unhealthy_f1,0.37841,0.348494,0.407131
+Model B — gan_500,unhealthy_precision,0.28422,0.25793,0.310346
+Model B — gan_500,unhealthy_recall,0.565972,0.525789,0.607595
+Ensemble — gan_500,weighted_f1,0.848445,0.843415,0.853553
+Ensemble — gan_500,macro_f1,0.705621,0.694115,0.717006
+Ensemble — gan_500,accuracy,0.842117,0.83672,0.847514
+Ensemble — gan_500,unhealthy_f1,0.417871,0.385308,0.448679
+Ensemble — gan_500,unhealthy_precision,0.336152,0.305907,0.366063
+Ensemble — gan_500,unhealthy_recall,0.552083,0.511462,0.592334
+Model B — ddpm_250,weighted_f1,0.841481,0.836399,0.846646
+Model B — ddpm_250,macro_f1,0.695695,0.682656,0.708667
+Model B — ddpm_250,accuracy,0.838427,0.833196,0.843769
+Model B — ddpm_250,unhealthy_f1,0.404092,0.367381,0.440035
+Model B — ddpm_250,unhealthy_precision,0.396985,0.356745,0.436027
+Model B — ddpm_250,unhealthy_recall,0.411458,0.37086,0.453718
+Ensemble — ddpm_250,weighted_f1,0.848425,0.843291,0.853595
+Ensemble — ddpm_250,macro_f1,0.703265,0.690332,0.716005
+Ensemble — ddpm_250,accuracy,0.845531,0.8403,0.850873
+Ensemble — ddpm_250,unhealthy_f1,0.41157,0.375427,0.447154
+Ensemble — ddpm_250,unhealthy_precision,0.392744,0.354027,0.431251
+Ensemble — ddpm_250,unhealthy_recall,0.432292,0.391591,0.474138
+Model B — ddpm_500,weighted_f1,0.840299,0.83501,0.845547
+Model B — ddpm_500,macro_f1,0.692151,0.67944,0.704905
+Model B — ddpm_500,accuracy,0.836885,0.831489,0.842282
+Model B — ddpm_500,unhealthy_f1,0.39374,0.35793,0.428458
+Model B — ddpm_500,unhealthy_precision,0.374608,0.336648,0.411767
+Model B — ddpm_500,unhealthy_recall,0.414931,0.374125,0.456044
+Ensemble — ddpm_500,weighted_f1,0.849179,0.844087,0.854412
+Ensemble — ddpm_500,macro_f1,0.706333,0.693526,0.718824
+Ensemble — ddpm_500,accuracy,0.846247,0.841015,0.851589
+Ensemble — ddpm_500,unhealthy_f1,0.418908,0.383012,0.45364
+Ensemble — ddpm_500,unhealthy_precision,0.394777,0.35673,0.432241
+Ensemble — ddpm_500,unhealthy_recall,0.446181,0.404325,0.487847
+Model B — ddpm_heavy_500,weighted_f1,0.84147,0.836309,0.846737
+Model B — ddpm_heavy_500,macro_f1,0.695758,0.682574,0.708856
+Model B — ddpm_heavy_500,accuracy,0.838758,0.833471,0.844209
+Model B — ddpm_heavy_500,unhealthy_f1,0.404494,0.367567,0.440852
+Model B — ddpm_heavy_500,unhealthy_precision,0.402754,0.362269,0.443508
+Model B — ddpm_heavy_500,unhealthy_recall,0.40625,0.364791,0.447736
+Ensemble — ddpm_heavy_500,weighted_f1,0.85131,0.84624,0.856418
+Ensemble — ddpm_heavy_500,macro_f1,0.713361,0.700565,0.726146
+Ensemble — ddpm_heavy_500,accuracy,0.848505,0.843218,0.853792
+Ensemble — ddpm_heavy_500,unhealthy_f1,0.437705,0.402387,0.472428
+Ensemble — ddpm_heavy_500,unhealthy_precision,0.414596,0.376702,0.452916
+Ensemble — ddpm_heavy_500,unhealthy_recall,0.463542,0.422885,0.505085
+Model B — combined_ddpm500_heavy_aug,weighted_f1,0.813958,0.808286,0.819871
+Model B — combined_ddpm500_heavy_aug,macro_f1,0.581183,0.571025,0.591608
+Model B — combined_ddpm500_heavy_aug,accuracy,0.816124,0.810562,0.821963
+Model B — combined_ddpm500_heavy_aug,unhealthy_f1,0.099875,0.071887,0.128878
+Model B — combined_ddpm500_heavy_aug,unhealthy_precision,0.177778,0.129464,0.228818
+Model B — combined_ddpm500_heavy_aug,unhealthy_recall,0.069444,0.049572,0.090909
+Ensemble — combined_ddpm500_heavy_aug,weighted_f1,0.849023,0.843862,0.854283
+Ensemble — combined_ddpm500_heavy_aug,macro_f1,0.69927,0.685722,0.712622
+Ensemble — combined_ddpm500_heavy_aug,accuracy,0.848119,0.842888,0.853461
+Ensemble — combined_ddpm500_heavy_aug,unhealthy_f1,0.397749,0.359881,0.43495
+Ensemble — combined_ddpm500_heavy_aug,unhealthy_precision,0.432653,0.388211,0.477083
+Ensemble — combined_ddpm500_heavy_aug,unhealthy_recall,0.368056,0.328671,0.407821
+5-model Enlarged,weighted_f1,0.853181,0.848117,0.858276
+5-model Enlarged,macro_f1,0.711681,0.699342,0.723886
+5-model Enlarged,accuracy,0.849056,0.843769,0.854342
+5-model Enlarged,unhealthy_f1,0.426404,0.392123,0.45987
+5-model Enlarged,unhealthy_precision,0.378706,0.344011,0.413514
+5-model Enlarged,unhealthy_recall,0.487847,0.446886,0.529639
