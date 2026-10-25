@@ -1,0 +1,18 @@
+condition,b_baseline_correct_other_wrong,c_baseline_wrong_other_correct,statistic,p_value,significant_at_0.05
+Model A,45,7,7.0,0.0,Yes
+Model B — baseline,37,9,9.0,4.1e-05,Yes
+Model B — heavy_aug,214,6,6.0,0.0,Yes
+Ensemble — heavy_aug,54,5,5.0,0.0,Yes
+Model B — gan_250,72,30,30.0,3.9e-05,Yes
+Ensemble — gan_250,32,24,24.0,0.349682,No
+Model B — gan_500,20,89,20.0,0.0,Yes
+Ensemble — gan_500,11,72,11.0,0.0,Yes
+Model B — ddpm_250,60,40,40.0,0.056888,No
+Ensemble — ddpm_250,30,22,22.0,0.33175,No
+Model B — ddpm_500,57,39,39.0,0.082193,No
+Ensemble — ddpm_500,29,29,29.0,1.0,No
+Model B — ddpm_heavy_500,53,30,30.0,0.015232,Yes
+Ensemble — ddpm_heavy_500,21,31,21.0,0.211609,No
+Model B — combined_ddpm500_heavy_aug,224,7,7.0,0.0,Yes
+Ensemble — combined_ddpm500_heavy_aug,48,3,3.0,0.0,Yes
+5-model Enlarged,20,44,20.0,0.00369,Yes

@@ -1,0 +1,26 @@
+McNemar's Exact Test — reference: Ensemble — baseline
+Overall N=18159   Unhealthy N=576
+================================================================================
+  Condition                                    Overall p   Sig  Unhealthy p   Sig
+  ----------------------------------------------------------------------------
+  Model A                                         0.4855             0.0000     *
+  Model B — baseline                              0.0000     *       0.0000     *
+  Model B — heavy_aug                             0.0000     *       0.0000     *
+  Ensemble — heavy_aug                            0.0532             0.0000     *
+  Model B — gan_250                               0.0000     *       0.0000     *
+  Ensemble — gan_250                              0.6532             0.3497      
+  Model B — gan_500                               0.0000     *       0.0000     *
+  Ensemble — gan_500                              0.0036     *       0.0000     *
+  Model B — ddpm_250                              0.0001     *       0.0569      
+  Ensemble — ddpm_250                             0.4455             0.3317      
+  Model B — ddpm_500                              0.0000     *       0.0822      
+  Ensemble — ddpm_500                             0.7931             1.0000      
+  Model B — ddpm_heavy_500                        0.0001     *       0.0152     *
+  Ensemble — ddpm_heavy_500                       0.2288             0.2116      
+  Model B — combined_ddpm500_heavy_aug            0.0000     *       0.0000     *
+  Ensemble — combined_ddpm500_heavy_aug           0.3508             0.0000     *
+  5-model Enlarged                                0.1489             0.0037     *
+
+* = significant at p < 0.05 (raw, no correction)
+b = baseline correct, other wrong
+c = baseline wrong, other correct
