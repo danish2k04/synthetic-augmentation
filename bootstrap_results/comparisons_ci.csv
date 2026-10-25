@@ -1,106 +1,106 @@
 comparison_tag,new_model,ref_model,metric,new_point,ref_point,diff,diff_ci_lower,diff_ci_upper,significant
-vs_model_a,Model B — baseline,Model A,weighted_f1,0.840513,0.846105,-0.005592,-0.00983,-0.001248,Yes
-vs_model_a,Model B — baseline,Model A,macro_f1,0.692626,0.701358,-0.008732,-0.019525,0.00233,No
-vs_model_a,Model B — baseline,Model A,accuracy,0.837932,0.845586,-0.007655,-0.01206,-0.003139,Yes
-vs_model_a,Model B — baseline,Model A,unhealthy_f1,0.396537,0.412818,-0.016281,-0.046206,0.014503,No
-vs_model_a,Model B — baseline,Model A,unhealthy_precision,0.395509,0.451546,-0.056037,-0.090315,-0.021685,Yes
-vs_model_a,Model B — baseline,Model A,unhealthy_recall,0.397569,0.380208,0.017361,-0.015735,0.05091,No
-vs_model_a,Ensemble — baseline,Model A,weighted_f1,0.849309,0.846105,0.003204,0.000381,0.006042,Yes
-vs_model_a,Ensemble — baseline,Model A,macro_f1,0.708545,0.701358,0.007186,-0.000559,0.015196,No
-vs_model_a,Ensemble — baseline,Model A,accuracy,0.846688,0.845586,0.001101,-0.001817,0.00402,No
-vs_model_a,Ensemble — baseline,Model A,unhealthy_f1,0.42691,0.412818,0.014092,-0.007405,0.036574,No
-vs_model_a,Ensemble — baseline,Model A,unhealthy_precision,0.409236,0.451546,-0.042311,-0.066295,-0.017902,Yes
-vs_model_a,Ensemble — baseline,Model A,unhealthy_recall,0.446181,0.380208,0.065972,0.042276,0.090756,Yes
-vs_model_a,Model B — heavy_aug,Model A,weighted_f1,0.82176,0.846105,-0.024345,-0.02899,-0.019635,Yes
-vs_model_a,Model B — heavy_aug,Model A,macro_f1,0.590892,0.701358,-0.110466,-0.124786,-0.096344,Yes
-vs_model_a,Model B — heavy_aug,Model A,accuracy,0.823118,0.845586,-0.022468,-0.027204,-0.017732,Yes
-vs_model_a,Model B — heavy_aug,Model A,unhealthy_f1,0.112257,0.412818,-0.300562,-0.341167,-0.260468,Yes
-vs_model_a,Model B — heavy_aug,Model A,unhealthy_precision,0.164983,0.451546,-0.286563,-0.337847,-0.236303,Yes
-vs_model_a,Model B — heavy_aug,Model A,unhealthy_recall,0.085069,0.380208,-0.295139,-0.335677,-0.256166,Yes
-vs_model_a,Ensemble — heavy_aug,Model A,weighted_f1,0.845727,0.846105,-0.000379,-0.002864,0.002173,No
-vs_model_a,Ensemble — heavy_aug,Model A,macro_f1,0.687335,0.701358,-0.014023,-0.019612,-0.008741,Yes
-vs_model_a,Ensemble — heavy_aug,Model A,accuracy,0.843714,0.845586,-0.001872,-0.004461,0.000771,No
-vs_model_a,Ensemble — heavy_aug,Model A,unhealthy_f1,0.365875,0.412818,-0.046943,-0.061977,-0.032763,Yes
-vs_model_a,Ensemble — heavy_aug,Model A,unhealthy_precision,0.370766,0.451546,-0.08078,-0.102528,-0.05997,Yes
-vs_model_a,Ensemble — heavy_aug,Model A,unhealthy_recall,0.361111,0.380208,-0.019097,-0.033629,-0.005424,Yes
-vs_model_a,Model B — gan_250,Model A,weighted_f1,0.84034,0.846105,-0.005765,-0.009976,-0.0014,Yes
-vs_model_a,Model B — gan_250,Model A,macro_f1,0.684974,0.701358,-0.016385,-0.02764,-0.005073,Yes
-vs_model_a,Model B — gan_250,Model A,accuracy,0.837601,0.845586,-0.007985,-0.012391,-0.003469,Yes
-vs_model_a,Model B — gan_250,Model A,unhealthy_f1,0.37133,0.412818,-0.041488,-0.072626,-0.010478,Yes
-vs_model_a,Model B — gan_250,Model A,unhealthy_precision,0.369416,0.451546,-0.082131,-0.116759,-0.047369,Yes
-vs_model_a,Model B — gan_250,Model A,unhealthy_recall,0.373264,0.380208,-0.006944,-0.040925,0.027445,No
-vs_model_a,Ensemble — gan_250,Model A,weighted_f1,0.848611,0.846105,0.002506,-0.000269,0.005313,No
-vs_model_a,Ensemble — gan_250,Model A,macro_f1,0.704092,0.701358,0.002734,-0.004368,0.010179,No
-vs_model_a,Ensemble — gan_250,Model A,accuracy,0.845972,0.845586,0.000385,-0.002478,0.003304,No
-vs_model_a,Ensemble — gan_250,Model A,unhealthy_f1,0.413278,0.412818,0.00046,-0.018983,0.021162,No
-vs_model_a,Ensemble — gan_250,Model A,unhealthy_precision,0.395866,0.451546,-0.05568,-0.079233,-0.032347,Yes
-vs_model_a,Ensemble — gan_250,Model A,unhealthy_recall,0.432292,0.380208,0.052083,0.031142,0.074074,Yes
-vs_model_a,Model B — gan_500,Model A,weighted_f1,0.836747,0.846105,-0.009359,-0.013902,-0.004905,Yes
-vs_model_a,Model B — gan_500,Model A,macro_f1,0.685803,0.701358,-0.015556,-0.027033,-0.003785,Yes
-vs_model_a,Model B — gan_500,Model A,accuracy,0.826808,0.845586,-0.018779,-0.023625,-0.014098,Yes
-vs_model_a,Model B — gan_500,Model A,unhealthy_f1,0.37841,0.412818,-0.034408,-0.066399,-0.001986,Yes
-vs_model_a,Model B — gan_500,Model A,unhealthy_precision,0.28422,0.451546,-0.167327,-0.201478,-0.133407,Yes
-vs_model_a,Model B — gan_500,Model A,unhealthy_recall,0.565972,0.380208,0.185764,0.147014,0.224384,Yes
-vs_model_a,Ensemble — gan_500,Model A,weighted_f1,0.848445,0.846105,0.00234,-0.000389,0.005116,No
-vs_model_a,Ensemble — gan_500,Model A,macro_f1,0.705621,0.701358,0.004263,-0.005492,0.014292,No
-vs_model_a,Ensemble — gan_500,Model A,accuracy,0.842117,0.845586,-0.003469,-0.006388,-0.000496,Yes
-vs_model_a,Ensemble — gan_500,Model A,unhealthy_f1,0.417871,0.412818,0.005053,-0.022399,0.033382,No
-vs_model_a,Ensemble — gan_500,Model A,unhealthy_precision,0.336152,0.451546,-0.115394,-0.145158,-0.085655,Yes
-vs_model_a,Ensemble — gan_500,Model A,unhealthy_recall,0.552083,0.380208,0.171875,0.139886,0.20434,Yes
-vs_model_a,Model B — ddpm_250,Model A,weighted_f1,0.841481,0.846105,-0.004625,-0.008955,-0.000267,Yes
-vs_model_a,Model B — ddpm_250,Model A,macro_f1,0.695695,0.701358,-0.005663,-0.017114,0.005686,No
-vs_model_a,Model B — ddpm_250,Model A,accuracy,0.838427,0.845586,-0.007159,-0.01162,-0.002698,Yes
-vs_model_a,Model B — ddpm_250,Model A,unhealthy_f1,0.404092,0.412818,-0.008726,-0.040659,0.023353,No
-vs_model_a,Model B — ddpm_250,Model A,unhealthy_precision,0.396985,0.451546,-0.054561,-0.089661,-0.020404,Yes
-vs_model_a,Model B — ddpm_250,Model A,unhealthy_recall,0.411458,0.380208,0.03125,-0.003584,0.066667,No
-vs_model_a,Ensemble — ddpm_250,Model A,weighted_f1,0.848425,0.846105,0.00232,-0.000606,0.005284,No
-vs_model_a,Ensemble — ddpm_250,Model A,macro_f1,0.703265,0.701358,0.001907,-0.005484,0.00958,No
-vs_model_a,Ensemble — ddpm_250,Model A,accuracy,0.845531,0.845586,-5.5e-05,-0.003084,0.002974,No
-vs_model_a,Ensemble — ddpm_250,Model A,unhealthy_f1,0.41157,0.412818,-0.001248,-0.021896,0.020204,No
-vs_model_a,Ensemble — ddpm_250,Model A,unhealthy_precision,0.392744,0.451546,-0.058802,-0.083085,-0.035026,Yes
-vs_model_a,Ensemble — ddpm_250,Model A,unhealthy_recall,0.432292,0.380208,0.052083,0.029825,0.075439,Yes
-vs_model_a,Model B — ddpm_500,Model A,weighted_f1,0.840299,0.846105,-0.005806,-0.010155,-0.001451,Yes
-vs_model_a,Model B — ddpm_500,Model A,macro_f1,0.692151,0.701358,-0.009207,-0.019917,0.001761,No
-vs_model_a,Model B — ddpm_500,Model A,accuracy,0.836885,0.845586,-0.008701,-0.013217,-0.004185,Yes
-vs_model_a,Model B — ddpm_500,Model A,unhealthy_f1,0.39374,0.412818,-0.019078,-0.048689,0.010897,No
-vs_model_a,Model B — ddpm_500,Model A,unhealthy_precision,0.374608,0.451546,-0.076938,-0.109955,-0.043996,Yes
-vs_model_a,Model B — ddpm_500,Model A,unhealthy_recall,0.414931,0.380208,0.034722,0.001727,0.067925,Yes
-vs_model_a,Ensemble — ddpm_500,Model A,weighted_f1,0.849179,0.846105,0.003074,0.000315,0.005979,Yes
-vs_model_a,Ensemble — ddpm_500,Model A,macro_f1,0.706333,0.701358,0.004975,-0.002219,0.012475,No
-vs_model_a,Ensemble — ddpm_500,Model A,accuracy,0.846247,0.845586,0.000661,-0.002203,0.003635,No
-vs_model_a,Ensemble — ddpm_500,Model A,unhealthy_f1,0.418908,0.412818,0.00609,-0.014233,0.027096,No
-vs_model_a,Ensemble — ddpm_500,Model A,unhealthy_precision,0.394777,0.451546,-0.056769,-0.080502,-0.032847,Yes
-vs_model_a,Ensemble — ddpm_500,Model A,unhealthy_recall,0.446181,0.380208,0.065972,0.044091,0.089286,Yes
-vs_model_a,Model B — ddpm_heavy_500,Model A,weighted_f1,0.84147,0.846105,-0.004636,-0.008842,-0.000254,Yes
-vs_model_a,Model B — ddpm_heavy_500,Model A,macro_f1,0.695758,0.701358,-0.0056,-0.01667,0.005747,No
-vs_model_a,Model B — ddpm_heavy_500,Model A,accuracy,0.838758,0.845586,-0.006829,-0.011124,-0.002258,Yes
-vs_model_a,Model B — ddpm_heavy_500,Model A,unhealthy_f1,0.404494,0.412818,-0.008324,-0.038779,0.022944,No
-vs_model_a,Model B — ddpm_heavy_500,Model A,unhealthy_precision,0.402754,0.451546,-0.048793,-0.082346,-0.014257,Yes
-vs_model_a,Model B — ddpm_heavy_500,Model A,unhealthy_recall,0.40625,0.380208,0.026042,-0.008489,0.060405,No
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,weighted_f1,0.85131,0.846105,0.005205,0.002456,0.008046,Yes
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,macro_f1,0.713361,0.701358,0.012003,0.004088,0.020323,Yes
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,accuracy,0.848505,0.845586,0.002919,5.5e-05,0.005837,Yes
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,unhealthy_f1,0.437705,0.412818,0.024887,0.002858,0.048212,Yes
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,unhealthy_precision,0.414596,0.451546,-0.03695,-0.061603,-0.012401,Yes
-vs_model_a,Ensemble — ddpm_heavy_500,Model A,unhealthy_recall,0.463542,0.380208,0.083333,0.058621,0.109612,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,weighted_f1,0.813958,0.846105,-0.032148,-0.037168,-0.02702,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,macro_f1,0.581183,0.701358,-0.120176,-0.134961,-0.104628,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,accuracy,0.816124,0.845586,-0.029462,-0.034473,-0.024341,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,unhealthy_f1,0.099875,0.412818,-0.312943,-0.354862,-0.269295,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,unhealthy_precision,0.177778,0.451546,-0.273769,-0.330335,-0.215332,Yes
-vs_model_a,Model B — combined_ddpm500_heavy_aug,Model A,unhealthy_recall,0.069444,0.380208,-0.310764,-0.352291,-0.269231,Yes
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,weighted_f1,0.849023,0.846105,0.002918,0.000824,0.005047,Yes
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,macro_f1,0.69927,0.701358,-0.002088,-0.006186,0.00183,No
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,accuracy,0.848119,0.845586,0.002533,0.000385,0.004736,Yes
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,unhealthy_f1,0.397749,0.412818,-0.01507,-0.025905,-0.004702,Yes
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,unhealthy_precision,0.432653,0.451546,-0.018893,-0.034846,-0.003159,Yes
-vs_model_a,Ensemble — combined_ddpm500_heavy_aug,Model A,unhealthy_recall,0.368056,0.380208,-0.012153,-0.022764,-0.001898,Yes
-vs_model_a,5-model Enlarged,Model A,weighted_f1,0.853181,0.846105,0.007076,0.003609,0.010536,Yes
-vs_model_a,5-model Enlarged,Model A,macro_f1,0.711681,0.701358,0.010323,0.000932,0.02003,Yes
-vs_model_a,5-model Enlarged,Model A,accuracy,0.849056,0.845586,0.003469,-0.00011,0.007049,No
-vs_model_a,5-model Enlarged,Model A,unhealthy_f1,0.426404,0.412818,0.013586,-0.013145,0.040559,No
-vs_model_a,5-model Enlarged,Model A,unhealthy_precision,0.378706,0.451546,-0.07284,-0.101896,-0.043565,Yes
-vs_model_a,5-model Enlarged,Model A,unhealthy_recall,0.487847,0.380208,0.107639,0.077617,0.13828,Yes
+vs_baseline_ensemble,Model A,Ensemble — baseline,weighted_f1,0.846105,0.849309,-0.003204,-0.006042,-0.000381,Yes
+vs_baseline_ensemble,Model A,Ensemble — baseline,macro_f1,0.701358,0.708545,-0.007186,-0.015196,0.000559,No
+vs_baseline_ensemble,Model A,Ensemble — baseline,accuracy,0.845586,0.846688,-0.001101,-0.00402,0.001817,No
+vs_baseline_ensemble,Model A,Ensemble — baseline,unhealthy_f1,0.412818,0.42691,-0.014092,-0.036574,0.007405,No
+vs_baseline_ensemble,Model A,Ensemble — baseline,unhealthy_precision,0.451546,0.409236,0.042311,0.017902,0.066295,Yes
+vs_baseline_ensemble,Model A,Ensemble — baseline,unhealthy_recall,0.380208,0.446181,-0.065972,-0.090756,-0.042276,Yes
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,weighted_f1,0.840513,0.849309,-0.008796,-0.012041,-0.005527,Yes
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,macro_f1,0.692626,0.708545,-0.015918,-0.023098,-0.008657,Yes
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,accuracy,0.837932,0.846688,-0.008756,-0.012115,-0.005342,Yes
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,unhealthy_f1,0.396537,0.42691,-0.030374,-0.049865,-0.010646,Yes
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,unhealthy_precision,0.395509,0.409236,-0.013726,-0.034406,0.006693,No
+vs_baseline_ensemble,Model B — baseline,Ensemble — baseline,unhealthy_recall,0.397569,0.446181,-0.048611,-0.070934,-0.025925,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,weighted_f1,0.82176,0.849309,-0.027549,-0.032014,-0.023118,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,macro_f1,0.590892,0.708545,-0.117653,-0.131701,-0.103752,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,accuracy,0.823118,0.846688,-0.02357,-0.02814,-0.018944,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,unhealthy_f1,0.112257,0.42691,-0.314654,-0.354411,-0.275785,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,unhealthy_precision,0.164983,0.409236,-0.244253,-0.291682,-0.197368,Yes
+vs_baseline_ensemble,Model B — heavy_aug,Ensemble — baseline,unhealthy_recall,0.085069,0.446181,-0.361111,-0.402643,-0.32049,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,weighted_f1,0.845727,0.849309,-0.003582,-0.006393,-0.000816,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,macro_f1,0.687335,0.708545,-0.02121,-0.029699,-0.013166,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,accuracy,0.843714,0.846688,-0.002974,-0.005892,-5.5e-05,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,unhealthy_f1,0.365875,0.42691,-0.061035,-0.08417,-0.038971,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,unhealthy_precision,0.370766,0.409236,-0.038469,-0.06437,-0.013096,Yes
+vs_baseline_ensemble,Ensemble — heavy_aug,Ensemble — baseline,unhealthy_recall,0.361111,0.446181,-0.085069,-0.111299,-0.06024,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,weighted_f1,0.84034,0.849309,-0.008969,-0.012979,-0.004992,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,macro_f1,0.684974,0.708545,-0.023571,-0.034142,-0.013124,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,accuracy,0.837601,0.846688,-0.009086,-0.013272,-0.004901,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,unhealthy_f1,0.37133,0.42691,-0.05558,-0.084867,-0.026818,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,unhealthy_precision,0.369416,0.409236,-0.03982,-0.069534,-0.010919,Yes
+vs_baseline_ensemble,Model B — gan_250,Ensemble — baseline,unhealthy_recall,0.373264,0.446181,-0.072917,-0.107143,-0.039923,Yes
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,weighted_f1,0.848611,0.849309,-0.000697,-0.00347,0.00207,No
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,macro_f1,0.704092,0.708545,-0.004452,-0.012125,0.003112,No
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,accuracy,0.845972,0.846688,-0.000716,-0.003635,0.002148,No
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,unhealthy_f1,0.413278,0.42691,-0.013632,-0.034546,0.007188,No
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,unhealthy_precision,0.395866,0.409236,-0.013369,-0.034848,0.007929,No
+vs_baseline_ensemble,Ensemble — gan_250,Ensemble — baseline,unhealthy_recall,0.432292,0.446181,-0.013889,-0.039569,0.011029,No
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,weighted_f1,0.836747,0.849309,-0.012562,-0.016687,-0.008506,Yes
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,macro_f1,0.685803,0.708545,-0.022742,-0.032424,-0.01302,Yes
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,accuracy,0.826808,0.846688,-0.01988,-0.024285,-0.015474,Yes
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,unhealthy_f1,0.37841,0.42691,-0.048501,-0.074919,-0.022106,Yes
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,unhealthy_precision,0.28422,0.409236,-0.125016,-0.15199,-0.099266,Yes
+vs_baseline_ensemble,Model B — gan_500,Ensemble — baseline,unhealthy_recall,0.565972,0.446181,0.119792,0.085713,0.153465,Yes
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,weighted_f1,0.848445,0.849309,-0.000864,-0.003669,0.001934,No
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,macro_f1,0.705621,0.708545,-0.002923,-0.011411,0.0057,No
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,accuracy,0.842117,0.846688,-0.004571,-0.0076,-0.001597,Yes
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,unhealthy_f1,0.417871,0.42691,-0.009039,-0.032582,0.015019,No
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,unhealthy_precision,0.336152,0.409236,-0.073083,-0.097154,-0.050007,Yes
+vs_baseline_ensemble,Ensemble — gan_500,Ensemble — baseline,unhealthy_recall,0.552083,0.446181,0.105903,0.076661,0.13585,Yes
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,weighted_f1,0.841481,0.849309,-0.007828,-0.011748,-0.004013,Yes
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,macro_f1,0.695695,0.708545,-0.01285,-0.023325,-0.002507,Yes
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,accuracy,0.838427,0.846688,-0.00826,-0.012335,-0.004295,Yes
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,unhealthy_f1,0.404092,0.42691,-0.022818,-0.051886,0.00568,No
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,unhealthy_precision,0.396985,0.409236,-0.012251,-0.041514,0.016676,No
+vs_baseline_ensemble,Model B — ddpm_250,Ensemble — baseline,unhealthy_recall,0.411458,0.446181,-0.034722,-0.068646,-0.001689,Yes
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,weighted_f1,0.848425,0.849309,-0.000884,-0.003606,0.001848,No
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,macro_f1,0.703265,0.708545,-0.00528,-0.012684,0.002125,No
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,accuracy,0.845531,0.846688,-0.001156,-0.003965,0.001707,No
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,unhealthy_f1,0.41157,0.42691,-0.01534,-0.036017,0.005436,No
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,unhealthy_precision,0.392744,0.409236,-0.016491,-0.037948,0.004515,No
+vs_baseline_ensemble,Ensemble — ddpm_250,Ensemble — baseline,unhealthy_recall,0.432292,0.446181,-0.013889,-0.038675,0.010417,No
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,weighted_f1,0.840299,0.849309,-0.009009,-0.012987,-0.005037,Yes
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,macro_f1,0.692151,0.708545,-0.016394,-0.026489,-0.006312,Yes
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,accuracy,0.836885,0.846688,-0.009802,-0.013934,-0.005672,Yes
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,unhealthy_f1,0.39374,0.42691,-0.033171,-0.060827,-0.005676,Yes
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,unhealthy_precision,0.374608,0.409236,-0.034628,-0.063379,-0.006834,Yes
+vs_baseline_ensemble,Model B — ddpm_500,Ensemble — baseline,unhealthy_recall,0.414931,0.446181,-0.03125,-0.065068,0.001745,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,weighted_f1,0.849179,0.849309,-0.000129,-0.002928,0.002591,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,macro_f1,0.706333,0.708545,-0.002211,-0.010011,0.005284,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,accuracy,0.846247,0.846688,-0.000441,-0.003359,0.002368,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,unhealthy_f1,0.418908,0.42691,-0.008002,-0.029685,0.013212,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,unhealthy_precision,0.394777,0.409236,-0.014458,-0.036668,0.007187,No
+vs_baseline_ensemble,Ensemble — ddpm_500,Ensemble — baseline,unhealthy_recall,0.446181,0.446181,0.0,-0.026187,0.025932,No
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,weighted_f1,0.84147,0.849309,-0.007839,-0.011582,-0.003867,Yes
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,macro_f1,0.695758,0.708545,-0.012786,-0.022309,-0.003076,Yes
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,accuracy,0.838758,0.846688,-0.00793,-0.01184,-0.0038,Yes
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,unhealthy_f1,0.404494,0.42691,-0.022416,-0.04829,0.004406,No
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,unhealthy_precision,0.402754,0.409236,-0.006482,-0.034098,0.02161,No
+vs_baseline_ensemble,Model B — ddpm_heavy_500,Ensemble — baseline,unhealthy_recall,0.40625,0.446181,-0.039931,-0.070672,-0.008666,Yes
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,weighted_f1,0.85131,0.849309,0.002001,-0.00068,0.004748,No
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,macro_f1,0.713361,0.708545,0.004817,-0.002428,0.012219,No
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,accuracy,0.848505,0.846688,0.001817,-0.000936,0.004681,No
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,unhealthy_f1,0.437705,0.42691,0.010795,-0.009243,0.031365,No
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,unhealthy_precision,0.414596,0.409236,0.005361,-0.015498,0.026326,No
+vs_baseline_ensemble,Ensemble — ddpm_heavy_500,Ensemble — baseline,unhealthy_recall,0.463542,0.446181,0.017361,-0.006934,0.042146,No
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,weighted_f1,0.813958,0.849309,-0.035351,-0.040179,-0.030416,Yes
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,macro_f1,0.581183,0.708545,-0.127362,-0.141641,-0.112831,Yes
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,accuracy,0.816124,0.846688,-0.030563,-0.03552,-0.025552,Yes
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_f1,0.099875,0.42691,-0.327035,-0.366808,-0.285942,Yes
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_precision,0.177778,0.409236,-0.231458,-0.283582,-0.17673,Yes
+vs_baseline_ensemble,Model B — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_recall,0.069444,0.446181,-0.376736,-0.418803,-0.335529,Yes
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,weighted_f1,0.849023,0.849309,-0.000286,-0.003026,0.002466,No
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,macro_f1,0.69927,0.708545,-0.009274,-0.017146,-0.001694,Yes
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,accuracy,0.848119,0.846688,0.001432,-0.001432,0.004295,No
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_f1,0.397749,0.42691,-0.029162,-0.05122,-0.00802,Yes
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_precision,0.432653,0.409236,0.023417,-0.001113,0.048109,No
+vs_baseline_ensemble,Ensemble — combined_ddpm500_heavy_aug,Ensemble — baseline,unhealthy_recall,0.368056,0.446181,-0.078125,-0.102151,-0.054794,Yes
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,weighted_f1,0.853181,0.849309,0.003873,0.000882,0.006882,Yes
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,macro_f1,0.711681,0.708545,0.003137,-0.004644,0.011119,No
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,accuracy,0.849056,0.846688,0.002368,-0.000771,0.005507,No
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_f1,0.426404,0.42691,-0.000507,-0.022061,0.021402,No
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_precision,0.378706,0.409236,-0.030529,-0.052243,-0.008504,Yes
+vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_recall,0.487847,0.446181,0.041667,0.01495,0.068733,Yes
 ensemble_vs_solo_b,Ensemble — baseline,Model B — baseline,weighted_f1,0.849309,0.840513,0.008796,0.005527,0.012041,Yes
 ensemble_vs_solo_b,Ensemble — baseline,Model B — baseline,macro_f1,0.708545,0.692626,0.015918,0.008657,0.023098,Yes
 ensemble_vs_solo_b,Ensemble — baseline,Model B — baseline,accuracy,0.846688,0.837932,0.008756,0.005342,0.012115,Yes
@@ -149,9 +149,9 @@ ensemble_vs_solo_b,Ensemble — combined_ddpm500_heavy_aug,Model B — combined_ddpm
 ensemble_vs_solo_b,Ensemble — combined_ddpm500_heavy_aug,Model B — combined_ddpm500_heavy_aug,unhealthy_f1,0.397749,0.099875,0.297873,0.255277,0.338814,Yes
 ensemble_vs_solo_b,Ensemble — combined_ddpm500_heavy_aug,Model B — combined_ddpm500_heavy_aug,unhealthy_precision,0.432653,0.177778,0.254875,0.199403,0.308776,Yes
 ensemble_vs_solo_b,Ensemble — combined_ddpm500_heavy_aug,Model B — combined_ddpm500_heavy_aug,unhealthy_recall,0.368056,0.069444,0.298611,0.257548,0.339192,Yes
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,weighted_f1,0.853181,0.85131,0.001871,-0.000873,0.004624,No
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,macro_f1,0.711681,0.713361,-0.00168,-0.008521,0.005187,No
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,accuracy,0.849056,0.848505,0.000551,-0.002259,0.003469,No
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,unhealthy_f1,0.426404,0.437705,-0.011301,-0.030111,0.007255,No
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,unhealthy_precision,0.378706,0.414596,-0.03589,-0.055315,-0.017087,Yes
-5model_vs_best_ensemble,5-model Enlarged,Ensemble — ddpm_heavy_500,unhealthy_recall,0.487847,0.463542,0.024306,0.001712,0.047017,Yes
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,weighted_f1,0.853181,0.849309,0.003873,0.000882,0.006882,Yes
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,macro_f1,0.711681,0.708545,0.003137,-0.004644,0.011119,No
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,accuracy,0.849056,0.846688,0.002368,-0.000771,0.005507,No
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_f1,0.426404,0.42691,-0.000507,-0.022061,0.021402,No
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_precision,0.378706,0.409236,-0.030529,-0.052243,-0.008504,Yes
+5model_vs_baseline_ensemble,5-model Enlarged,Ensemble — baseline,unhealthy_recall,0.487847,0.446181,0.041667,0.01495,0.068733,Yes

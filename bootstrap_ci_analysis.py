@@ -8,7 +8,7 @@ Evaluates:
   - 5-model enlarged ensemble
 
 Comparisons:
-  1. Every unit vs Model A standalone
+  1. Every unit vs Ensemble — baseline
   2. Each 2-model ensemble vs its own standalone Model B
   3. 5-model enlarged ensemble vs best 2-model ensemble (by unhealthy F1)
 
@@ -276,11 +276,12 @@ def main():
 
     print("\n  Computing paired bootstrap diffs …")
 
-    # A) Every unit vs Model A standalone
-    for uname in tqdm(units, desc="  vs Model A"):
-        if uname == "Model A":
+    # A) Every unit vs Ensemble — baseline
+    BASELINE = "Ensemble — baseline"
+    for uname in tqdm(units, desc="  vs Ensemble-baseline"):
+        if uname == BASELINE:
             continue
-        add_comparison(uname, "Model A", "vs_model_a")
+        add_comparison(uname, BASELINE, "vs_baseline_ensemble")
 
     # B) Each 2-model ensemble vs its own standalone Model B
     for cond in tqdm(CONDITIONS, desc="  ensemble vs own B"):
@@ -288,8 +289,8 @@ def main():
         solo = f"Model B — {cond}"
         add_comparison(ens, solo, "ensemble_vs_solo_b")
 
-    # C) 5-model enlarged vs best 2-model ensemble
-    add_comparison("5-model Enlarged", best_ens, "5model_vs_best_ensemble")
+    # C) 5-model enlarged vs Ensemble — baseline
+    add_comparison("5-model Enlarged", "Ensemble — baseline", "5model_vs_baseline_ensemble")
 
     # ------------------------------------------------------------------ #
     # Save CSV 1: metrics_ci.csv                                           #
@@ -356,12 +357,12 @@ def main():
             f"{pe['unhealthy_recall']:>7.4f}"
         )
 
-    # Section A: units vs Model A
-    lines.append("\n\n── SECTION A: All units vs Model A standalone ──")
-    lines.append("(diff = unit − Model A; * = CI excludes zero)\n")
+    # Section A: units vs Ensemble — baseline
+    lines.append("\n\n── SECTION A: All units vs Ensemble — baseline ──")
+    lines.append("(diff = unit − Ensemble baseline; * = CI excludes zero)\n")
     prev_tag = None
     for row in comparisons:
-        if row["comparison_tag"] != "vs_model_a":
+        if row["comparison_tag"] != "vs_baseline_ensemble":
             continue
         if row["metric"] != "unhealthy_f1":
             continue
@@ -391,16 +392,16 @@ def main():
             f"sig={row['significant']}"
         )
 
-    # Section C: 5-model vs best 2-model
-    lines.append("\n\n── SECTION C: 5-model Enlarged vs Best 2-model Ensemble ──")
-    lines.append(f"(Best 2-model = {best_ens})\n")
+    # Section C: 5-model vs Ensemble — baseline
+    lines.append("\n\n── SECTION C: 5-model Enlarged vs Ensemble — baseline ──")
+    lines.append("(diff = 5-model Enlarged − Ensemble baseline; * = CI excludes zero)\n")
     for row in comparisons:
-        if row["comparison_tag"] != "5model_vs_best_ensemble":
+        if row["comparison_tag"] != "5model_vs_baseline_ensemble":
             continue
         sig = "*" if row["significant"] == "Yes" else " "
         lines.append(
             f"  {sig} [{row['metric']:<22}]  "
-            f"5model={row['new_point']:.4f}  best_ens={row['ref_point']:.4f}  "
+            f"5model={row['new_point']:.4f}  baseline_ens={row['ref_point']:.4f}  "
             f"diff={row['diff']:+.4f}  "
             f"95%CI=[{row['diff_ci_lower']:+.4f}, {row['diff_ci_upper']:+.4f}]  "
             f"sig={row['significant']}"
