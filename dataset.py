@@ -16,9 +16,9 @@ from torchvision import transforms
 import config
 
 
-# ---------------------------------------------------------------------------
+
 # Transforms
-# ---------------------------------------------------------------------------
+
 
 class PadToSquareWhite:
     """Pad image to square with white background before resizing."""
@@ -115,9 +115,9 @@ def get_gen_eval_tf(img_size: int = config.GEN_IMG_SIZE) -> transforms.Compose:
     ])
 
 
-# ---------------------------------------------------------------------------
+
 # Dataset classes
-# ---------------------------------------------------------------------------
+
 
 class PapCellDataset(Dataset):
     """Train / val dataset — images in label subdirectories."""
@@ -220,9 +220,9 @@ class UnlabelledFolderDataset(Dataset):
         return self.tfm(img)
 
 
-# ---------------------------------------------------------------------------
+
 # Data-loading helpers
-# ---------------------------------------------------------------------------
+
 
 def load_train_df() -> tuple[pd.DataFrame, dict]:
     """Load train CSV, drop bothcells, add numeric target column."""
@@ -278,9 +278,9 @@ def make_loader(dataset: Dataset, sampler=None, shuffle: bool = False) -> DataLo
     )
 
 
-# ---------------------------------------------------------------------------
+
 # Convenience: build all loaders for a given condition
-# ---------------------------------------------------------------------------
+
 
 def build_model_a_loaders(df_train: pd.DataFrame, df_val: pd.DataFrame, sampler):
     """Standard aug datasets + loaders for Model A."""
