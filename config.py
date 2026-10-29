@@ -121,9 +121,9 @@ MODEL_B_HEAVY_AUG = dict(
     erasing_scale = (0.02, 0.15),
 )
 
-# ---------------------------------------------------------------------------
+
 # DCGAN (GAN baseline)
-# ---------------------------------------------------------------------------
+
 DCGAN = dict(
     latent_dim    = 128,
     image_size    = GEN_IMG_SIZE,
@@ -137,9 +137,8 @@ DCGAN = dict(
     label_emb_dim = 50,
 )
 
-# ---------------------------------------------------------------------------
-# DDPM — lightweight (our contribution)
-# ---------------------------------------------------------------------------
+# DDPM — lightweight 
+
 DDPM = dict(
     image_size        = GEN_IMG_SIZE,          # 128×128
     timesteps         = 500,
@@ -156,9 +155,9 @@ DDPM = dict(
     ddim_steps        = 50,
 )
 
-# ---------------------------------------------------------------------------
+
 # DDPM Heavy — wider, deeper, longer (ablation vs lightweight)
-# ---------------------------------------------------------------------------
+
 DDPM_HEAVY = dict(
     image_size        = GEN_IMG_SIZE,          # 128×128
     timesteps         = 1000,
@@ -175,15 +174,15 @@ DDPM_HEAVY = dict(
     ddim_steps        = 50,
 )
 
-# ---------------------------------------------------------------------------
+
 # Experiment
-# ---------------------------------------------------------------------------
+
 SYNTH_COUNTS = [250, 500]
 SEEDS        = [42, 123, 456]
 
 CONDITIONS = [
     "baseline_ensemble",   # Model A: std aug; Model B: std aug (no dual aug)
-    "heavy_aug_ensemble",  # Model A: std aug; Model B: dual aug (reproduces 0.8514)
+    "heavy_aug_ensemble",  # Model A: std aug; Model B: dual aug 
     "gan_ensemble",        # Model A: std aug; Model B: std aug + DCGAN synthetic
     "ddpm_ensemble",       # Model A: std aug; Model B: std aug + DDPM synthetic
     "ddpm_500_heavy",      # Model A: std aug; Model B: dual aug + 500 DDPM synthetic
