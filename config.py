@@ -4,16 +4,15 @@ All hyperparameters live here. Nothing is hardcoded elsewhere.
 """
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
 # Paths
-# ---------------------------------------------------------------------------
+
 DATA_ROOT   = Path(r"C:\Users\danish\Desktop\pap_cell_classification\data")
 TRAIN_CSV   = DATA_ROOT / "isbi2025-ps3c-train-dataset.csv"
 TRAIN_DIR   = DATA_ROOT / "isbi2025-ps3c-train-dataset"   # contains label/ subdirs
 TEST_CSV    = DATA_ROOT / "isbi2025-ps3c-test-dataset-annotated.csv"
 TEST_DIR    = DATA_ROOT / "isbi2025-ps3c-test-dataset"     # flat folder
 
-# Pre-trained checkpoints from prior work (seed=42, heavy_aug_ensemble)
+# Pre-trained checkpoints (seed=42, heavy_aug_ensemble)
 PRETRAINED_MODEL_A = Path(r"C:\Users\danish\Desktop\model_1\data\best_model_3.pth")
 PRETRAINED_MODEL_B = Path(r"C:\Users\danish\Desktop\model_2\data\best_model_v2_6.pth")
 
@@ -24,9 +23,9 @@ METRICS_DIR     = OUTPUT_DIR / "metrics"
 PLOTS_DIR       = OUTPUT_DIR / "plots"
 LOG_DIR         = OUTPUT_DIR / "logs"
 
-# ---------------------------------------------------------------------------
+
 # Dataset
-# ---------------------------------------------------------------------------
+
 CLASSES           = ["healthy", "rubbish", "unhealthy"]   # sorted alphabetically
 NUM_CLASSES       = 3
 DROP_BOTHCELLS    = True
@@ -43,22 +42,22 @@ GEN_IMG_SIZE = 128    # generative models
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD  = (0.229, 0.224, 0.225)
 
-# ---------------------------------------------------------------------------
+
 # DataLoader
-# ---------------------------------------------------------------------------
+
 BATCH_SIZE   = 32
-NUM_WORKERS  = 0       # must be 0 on Windows to avoid deadlocks
+NUM_WORKERS  = 0       
 PIN_MEMORY   = True
 
-# ---------------------------------------------------------------------------
+
 # Loss / sampling
-# ---------------------------------------------------------------------------
+
 LABEL_SMOOTHING = 0.05   # CrossEntropyLoss label_smoothing
 # Weighted random sampler: inverse class frequency, computed at runtime
 
-# ---------------------------------------------------------------------------
+
 # Model A — standard augmentation, no head warmup
-# ---------------------------------------------------------------------------
+
 MODEL_A = dict(
     lr           = 2e-4,
     weight_decay = 1e-4,
@@ -76,14 +75,13 @@ MODEL_A_AUG = dict(
     jitter_h      = 0.0,
 )
 
-# ---------------------------------------------------------------------------
+
 # Model B — dual augmentation, with head warmup
 #
 # Uses PapCellDatasetDualAug: heavy aug for unhealthy, standard aug for others.
 # "Standard for Model B" = get_standard_tf_m2 pipeline below.
 # "Heavy for Model B"    = get_heavy_tf_m2 pipeline below.
-# This dual-aug strategy matches the code that produced the 0.8514 result.
-# ---------------------------------------------------------------------------
+
 MODEL_B = dict(
     # Phase 1: head-only warmup
     phase1_epochs       = 5,
