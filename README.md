@@ -22,7 +22,7 @@ Three generative approaches are compared:
 
 - **Lightweight DDPM** — U-Net with 3 channel stages (64, 128, 256), attention at 16x16 only, 500 diffusion steps, DDIM 50-step sampling
 - **Full-size DDPM** — 4 channel stages (64, 128, 256, 512), multi-resolution attention, 1000 steps (ablation)
-- **Conditional DCGAN** — latent dim 128, hinge loss, conditional batch norm (baseline generative model)
+- **Conditional DCGAN** — latent dim 128, BCEWithLogitsloss, conditional batch norm (baseline generative model)
 
 All generative models are trained at 128x128 on only the ~2,366 unhealthy-class images.
 
